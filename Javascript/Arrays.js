@@ -51,5 +51,3 @@ arr1.reverse();
 console.log(arr1);
 arr1.sort();
 console.log(arr1);
-
-
