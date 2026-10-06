@@ -1,0 +1,14 @@
+.ball {
+    height: 200px;
+    width: 200px;
+    /* background-color: black; */
+    border-radius: 50%;
+    animation: ball 1s linear 1s infinite normal;
+}
+@keyframes ball {
+    from {
+        transform: translateX(-200px);
+    } to {
+        transform: translateX(200px);
+    }
+}
